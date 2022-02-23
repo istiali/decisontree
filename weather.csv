@@ -1,0 +1,15 @@
+Outlook,Temperature,Humidity,Windy,Class
+sunny,hot,high,false,Not_plays
+sunny,hot,high,true,Not_plays
+overcast,hot,high,false,Plays
+rain,mild,high,false,Plays
+rain,cool,normal,false,Plays
+rain,cool,normal,true,Not_plays
+overcast,cool,normal,true,Plays
+sunny,mild,high,false,Not_plays
+sunny,cool,normal,false,Plays
+rain,mild,normal,false,Plays
+sunny,mild,normal,true,Plays
+overcast,mild,high,true,Plays
+overcast,hot,normal,false,Plays
+rain,mild,high,true,Not_plays

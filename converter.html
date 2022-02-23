@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<title>Converter</title>
+<body>
+
+<h2>Temperature Converter</h2>
+<p>
+  <label>Fahrenheit</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+<p>Celcius: <span id="celcius"></span></p>
+
+<h2>Speed Converter</h2>
+<p>
+  <label>MPH</label>
+  <input id="inputMPH" type="number" placeholder="MPH" oninput="speedConverter(this.value)" onchange="speedConverter(this.value)">
+</p>
+<p>KPH: <span id="kmph"></span></p>
+
+
+<script>
+function temperatureConverter(num) {
+  num = parseFloat(num);
+  document.getElementById("celcius").innerHTML=(num-32)/1.8;
+}
+
+function speedConverter(num) {
+  num = parseFloat(num);
+  document.getElementById("kmph").innerHTML = num * 1.609344;
+}
+</script>
+
+</body>
+</html>
